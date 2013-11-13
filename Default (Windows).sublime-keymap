@@ -1,0 +1,8 @@
+[
+    {
+        "keys": ["ctrl+shift+r"], "command": "pxtorem"
+    },
+    {
+        "keys": ["ctrl+shift+x"], "command": "remtopx"
+    }
+]

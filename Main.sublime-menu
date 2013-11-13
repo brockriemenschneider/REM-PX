@@ -1,0 +1,55 @@
+[
+    {
+        "id": "tools",
+        "children":
+        [
+            {
+                "id": "{px-to-rem}",
+                "caption": "Convert highlighted px to rem",
+                "command": "pxtorem"
+            },
+            {
+                "id": "{rem-to-px}",
+                "caption": "Convert highlighted rem to px",
+                "command": "remtopx"
+            }
+        ]
+    },
+    {
+        "caption": "Preferences",
+        "id": "preferences",
+        "children":
+        [
+            {
+                "caption": "Package Settings",
+                "id": "package-settings",
+                "children":
+                [
+                    {
+                        "caption": "REM-PX",
+                        "children":
+                        [
+                            {
+                                "caption": "Settings – Default",
+                                "command": "open_file",
+                                "args":
+                                {
+                                    "file": "${packages}/REM-PX/REM-PX.sublime-settings"
+                                }
+                            },
+                            {
+                                "caption": "Settings – User",
+                                "command": "open_file",
+                                "args":
+                                {
+                                    "file": "${packages}/User/REM-PX.sublime-settings"
+                                }
+                            },
+                            { "caption": "-" }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]
